@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WordLearner</string>
+    <string name="item_settings">Налаштування</string>
 </resources>
