@@ -8,15 +8,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.company.ihor.wordlearner.MainActivity">
             <intent-filter>
                 <action android:name = "android.intent.action.MAIN" />
                 <category android:name = "android.integory.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".AddWordsActivity"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name="com.company.ihor.wordlearner.AddWordsActivity"/>
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
